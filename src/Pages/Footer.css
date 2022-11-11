@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600&display=swap');
+
+.interact-footer-part{
+    background: linear-gradient(223.74deg, #ECF7FF -7.23%, #FFFFFF 88.65%);
+    border-radius: 156px 156px 0px 0px;
+   
+}
+
+.footer-img{
+    padding-top: 80px;
+    
+}
+
+
+
+.footer-text-about{
+    /* margin-left: 99px; */
+}
+
+.footer-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: lightgrey;
+    line-height: 27px;
+}
+
+.font-sub-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+.footer-social-btn{
+    background: #D2EBFF;
+    border: 0;
+    border-radius: 50%;
+    color: #000;
+    height: 40px;
+    margin: 15px 8px;
+    transition: all .3s ease-in-out;
+    width: 40px;
+    
+}
+
+.footer-nav{
+    list-style: none;
+    padding-inline-start: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    color: #76848F;
+}
+
+.footer-nav-sec{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    list-style: none;
+    padding-inline-start: 0px;
+    color: #76848F;
+}
+
+.footer-last{
+    margin-left: 88px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-items{
+    margin-top: -47px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.head{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 10px 10px;
+}
+
+@media (max-width: 576px){
+    .img{
+        margin-left: 0px;
+    }
+    .footer-last{
+        margin-left: 0px ;
+    }
+    .footer-items{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .footer-text-about{
+        margin-left: 0px;
+text-align: center;
+    }
+    .icons{
+        justify-content: center;
+        
+    }
+}
